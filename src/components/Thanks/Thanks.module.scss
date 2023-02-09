@@ -1,0 +1,23 @@
+@import '../../scss/index.scss';
+
+.thanks {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .selected_choice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #23303A;
+        color: $orange;
+        width: 168px;
+        padding: 8px;
+        border-radius: 23px;
+        font-size: 14px;
+        margin-top: 33px;
+    }
+}
